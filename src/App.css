@@ -1,6 +1,7 @@
 /* App Layout */
 .app {
   min-height: 100vh;
+  background-color: #1A1464;
 }
 
 .main-content {
@@ -11,6 +12,7 @@
 .section {
   min-height: calc(100vh - 70px);
   padding: 50px 0;
+  background-color: #1A1464;
 }
 
 .container {
@@ -23,7 +25,6 @@
 .hero {
   text-align: center;
   padding: 100px 20px;
-  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
   color: white;
   min-height: calc(100vh - 70px);
   display: flex;
@@ -36,6 +37,7 @@
   font-size: 3rem;
   margin-bottom: 20px;
   font-weight: 700;
+  color: #c0c0c0;
 }
 
 .hero p {
@@ -62,12 +64,12 @@
 }
 
 .hero-buttons button:first-child {
-  background-color: white;
-  color: #2c3e50;
+  background-color: #c0c0c0;
+  color: #1a365d;
 }
 
 .hero-buttons button:first-child:hover {
-  background-color: #f8f9fa;
+  background-color: #d3d3d3;
   transform: translateY(-2px);
 }
 
@@ -78,8 +80,9 @@
 }
 
 .hero-buttons button:last-child:hover {
-  background-color: white;
-  color: #2c3e50;
+  background-color: rgba(192, 192, 192, 0.2);
+  color: white;
+  border-color: #c0c0c0;
   transform: translateY(-2px);
 }
 
@@ -100,7 +103,7 @@
 }
 
 .about-card h3 {
-  color: #2c3e50;
+  color: #1a365d;
   margin-bottom: 15px;
 }
 
@@ -120,7 +123,7 @@
 }
 
 .service-card h3 {
-  color: #2c3e50;
+  color: #1a365d;
   margin-bottom: 15px;
 }
 
@@ -146,14 +149,14 @@
 
 .service-card li:before {
   content: "✓";
-  color: #3498db;
+  color: #c0c0c0;
   margin-right: 10px;
   font-weight: bold;
 }
 
 /* General Typography */
 h1, h2, h3, h4 {
-  color: #2c3e50;
+  color: #1a365d;
 }
 
 h2 {

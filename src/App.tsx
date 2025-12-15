@@ -11,7 +11,7 @@ function App() {
   const HomeSection = () => (
     <section id="home" className="section">
       <div className="hero">
-        <h1>Welcome to Eaton Golf Company</h1>
+        <h1>Welcome to Silver Key Title Group LTD</h1>
         <p>Your premier destination for professional golf services</p>
         <div className="hero-buttons">
           <button onClick={() => setActiveSection('services')}>Our Services</button>
@@ -25,9 +25,9 @@ function App() {
   const AboutSection = () => (
     <section id="about" className="section">
       <div className="container">
-        <h2>About Eaton Golf Company</h2>
+        <h2>About Silver Key Title Group LTD</h2>
         <p>
-          Founded with a passion for golf excellence, Eaton Golf Company has been serving 
+          Founded with a passion for golf excellence, Silver Key Title Group LTD has been serving 
           golfers of all skill levels for years. Our team of experienced professionals 
           is dedicated to helping you improve your game and enjoy the sport to its fullest.
         </p>
