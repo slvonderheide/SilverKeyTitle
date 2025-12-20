@@ -11,7 +11,7 @@ function App() {
   const HomeSection = () => (
     <section id="home" className="section">
       <div className="hero">
-        <h1>Welcome to Silver Key Title Group LTD</h1>
+        <h1>Silver Key Title Group LTD</h1>
         <p>Your premier destination for professional golf services</p>
         <div className="hero-buttons">
           <button onClick={() => setActiveSection('services')}>Our Services</button>
