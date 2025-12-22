@@ -12,7 +12,7 @@ function App() {
     <section id="home" className="section">
       <div className="hero">
         <h1>Silver Key Title Group LTD</h1>
-        <p>Your premier destination for professional golf services</p>
+        <p>Your premier destination for professional title services</p>
         <div className="hero-buttons">
           <button onClick={() => setActiveSection('services')}>Our Services</button>
           <button onClick={() => setActiveSection('contact')}>Get Started</button>
