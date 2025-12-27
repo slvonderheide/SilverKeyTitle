@@ -18,7 +18,7 @@ function NavBar({ activeSection, setActiveSection }: NavBarProps) {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <h2>Welcome</h2>
+          
         </div>
         
         <div className={`hamburger ${isOpen ? 'active' : ''}`} onClick={() => setIsOpen(!isOpen)}>
