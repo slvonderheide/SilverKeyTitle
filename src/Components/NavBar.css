@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #84a2c0;
+  background-color: #86888a;
   padding: 0;
   position: fixed;
   top: 0;
@@ -45,7 +45,7 @@
 }
 
 .navbar-link:hover {
-  color: #3498db;
+  color: black;
 }
 
 /* Hamburger Menu Styles */
