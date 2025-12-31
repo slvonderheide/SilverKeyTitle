@@ -7,10 +7,6 @@ function NavBar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="navbar-logo">
-          <h2>Silver Key Title Group LTD</h2>
-        </div>
-        
         <div className={`hamburger ${isOpen ? 'active' : ''}`} onClick={() => setIsOpen(!isOpen)}>
           <span></span>
           <span></span>

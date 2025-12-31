@@ -1,11 +1,18 @@
 .navbar {
-  background-color: #1A1464;
+  background: linear-gradient(180deg, 
+    #c0c0c0 0%, 
+    #a8a8a8 25%, 
+    #909090 50%, 
+    #a8a8a8 75%, 
+    #c0c0c0 100%);
   padding: 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 
+              inset 0 1px 0 rgba(255, 255, 255, 0.5),
+              inset 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
 .navbar-container {
@@ -19,9 +26,13 @@
 }
 
 .navbar-logo h2 {
-  color: white;
+  color: #1A1464;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  font-family: 'Trajan Pro', 'Trajan', 'Cinzel', 'Cormorant Garamond', 'Times New Roman', 'Georgia', serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .navbar-logo {
@@ -51,22 +62,28 @@
 .navbar-link {
   background: none;
   border: none;
-  color: white;
+  color: #1A1464;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
   padding: 10px 0;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+  font-family: 'Trajan Pro', 'Trajan', 'Cinzel', 'Cormorant Garamond', 'Times New Roman', 'Georgia', serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .navbar-link:hover {
-  color: #c0c0c0;
+  color: #100554;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6);
 }
 
 .navbar-link.active {
-  color: #c0c0c0;
+  color: #100554;
   font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6);
 }
 
 /* Hamburger Menu Styles */
